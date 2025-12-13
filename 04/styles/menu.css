@@ -1,0 +1,35 @@
+:root {
+  --primary-color-light: #F7F7F7;
+  --primary-color-dark: #333333;
+  --secondary-color: #009AE1;
+}
+
+.dropdown-menu__list-item,
+.dropdown-menu__sublist-item {
+  text-transform: capitalize;
+}
+
+.header {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: fit-content;
+  height: fit-content;
+}
+
+.nav__list,
+.dropdown-menu__list,
+.dropdown-menu__sublist {
+  display: flex;
+}
+
+.dropdown-menu__list,
+.dropdown-menu__sublist {
+  flex-direction: column;
+}
+
+.nav__list-item {
+  text-transform: uppercase;
+  padding: 2rem 2rem;
+  text-align: center;
+}
